@@ -1,5 +1,5 @@
 title: JSH
 author: JSH
 
-domain: "https://whtndgus.github.io"
-base: "./dist"
+domain: "https://whtndgus.github.io/dist/"
+base: "https://whtndgus.github.io/dist"
