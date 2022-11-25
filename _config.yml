@@ -1,5 +1,38 @@
-title: JSH
-author: JSH
+# Site Info
+title: ""
+tagline: ""
+description: ""
+baseurl: ""
+url: https://variu.github.io
+logo: ""
 
-domain: "https://whtndgus.github.io"
-base: ""
+# Site configurations
+#gems:
+#  - jekyll-paginate
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+#paginate:
+#paginate_path: ''
+#permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Jake Park
+  description: Jake Park
+  contact:
+    # linkedin:  https://www.linkedin.com/in/
+    github:    https://github.com/variu
+    #    facebook:
+    # twitter:
+    # weibo:
+    email:    mailto:variu0120@gmail.com
+
+google_analytics:
+  ua: 'UA-134234881-1'
