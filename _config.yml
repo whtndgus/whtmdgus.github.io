@@ -2,7 +2,7 @@
 title: ""
 tagline: ""
 description: ""
-baseurl: ""
+baseurl: "./dist"
 url: https://variu.github.io
 logo: ""
 
