@@ -1,19 +1,22 @@
-<!DOCTYPE>
+	<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-        <script>
-            var h1 = new vue({
-                el: "h1",
-                data: {
-                    message: "Mobbing Github Blog!",
-                    bmsg: "Hello World!"
-                }
-            });
-        </script>
-	</head>
-	<body>
-		<h1 v-bind:title="bmsg">{{ message }}</h1>
-	</body>
+<head>
+<meta charset="UTF-8">
+<title>Vue.js</title>
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <h1 v-bind:title="bmsg">{{ message }}</h1>
+ 
+    <script>
+		var h1 = new Vue({
+			el: "h1",
+			data: {
+				message: "JSH Github Blog!",
+				bmsg: "Hello 친구들!"
+			}
+		});
+	</script>
+</body>
 </html>
