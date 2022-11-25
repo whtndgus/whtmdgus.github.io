@@ -3,17 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script>
+            var h1 = new vue({
+                el: "h1",
+                data: {
+                    message: "Mobbing Github Blog!",
+                    bmsg: "Hello World!"
+                }
+            });
+        </script>
 	</head>
 	<body>
 		<h1 v-bind:title="bmsg">{{ message }}</h1>
 	</body>
-	<script>
-		var h1 = new vue({
-			el: "h1",
-			data: {
-				message: "Mobbing Github Blog!",
-				bmsg: "Hello World!"
-			}
-		});
-	</script>
 </html>
