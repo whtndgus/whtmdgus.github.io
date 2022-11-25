@@ -6,6 +6,8 @@
     <title>제몫</title>
 </head>
 <body>
+    <h1 v-bind:title="bmsg">{{message}}</h1>
+</body>
     <script>
 		var h1 = new Vue({
 			el: "h1",
@@ -15,5 +17,4 @@
 			}
 		});
 	</script>
-</body>
 </html>
